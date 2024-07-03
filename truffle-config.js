@@ -18,7 +18,7 @@ module.exports = {
 				new HDWalletProvider(PRIVATE_KEY, 'https://alfajores-forno.celo-testnet.org'),
 			network_id: 44787,
 			gas: 8000000,
-			gasPrice: 30000000000, // Updated gasPrice value to meet the minimum gas price floor requirement
+			gasPrice: 30000000000,
 		},
 	},
 	contracts_directory: './contracts/',
